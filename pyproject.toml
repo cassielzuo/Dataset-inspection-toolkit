@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datasetlens"
+version = "0.3.0"
+description = "Dataset inspection toolkit for text and image datasets"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "Apache-2.0"
+
+authors = [
+    { name = "PrinceZaman-2005" },
+    { name = "airinrs" }
+]
+
+keywords = [
+    "dataset",
+    "inspection",
+    "image",
+    "text",
+    "validation"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "numpy==2.5.3",
+    "pandas==3.0.5",
+    "charset-normalizer==3.5.1",
+    "langdetect==1.0.9",
+    "pillow>=10.0.0"
+]
+
+[tool.setuptools]
+packages = ["image_inspector", "text_inspector"]
