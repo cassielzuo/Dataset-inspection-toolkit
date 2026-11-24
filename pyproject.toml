@@ -11,8 +11,7 @@ requires-python = ">=3.8"
 license = "Apache-2.0"
 
 authors = [
-    { name = "PrinceZaman-2005" },
-    { name = "airinrs" }
+    { name = "cassielzuo" }
 ]
 
 keywords = [
